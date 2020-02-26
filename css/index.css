@@ -1,3 +1,158 @@
-/* Use your own code or past solution for Great Idea Web Page CSS here! */
+/* Use your own code or past solution for Great Idea Web Page CSS here! */  
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    font-family: 'Lacquer', 'Titillium Web', sans-serif;
+}
+h1, h2, h3, h4, h5 {
+    font-family: 'Tomorrow', 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
 
+/* Global */
+body{
+	margin: 40px 5% 60px;
+}
+header a{
+	text-decoration: none;
+	color: slategray;
+}
+header{
+    width: 60%;
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4% auto;
+}
+header nav{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
 
+}
+footer{
+	width: 60%;
+	margin: 1% auto;
+}
+footer .contact{
+	width: 15%;
+}
+footer .copy{
+	text-align: center;
+}
+
+/*/* index.html */
+/* Subhead */
+.subhead{
+    width: 60%;
+	margin: 1% auto;
+	display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+#emptydiv{
+    width: 1%;
+}
+.subhead h1{
+	margin-top: 20px;
+	font-size: 80px;
+	font-weight: 580;	
+}
+.subhead button{
+	background-color: white;
+	border: 1px solid black;
+	height: 38px;
+	width: 190px;
+	font-size: 18px;
+}
+.subhead button:hover{
+	background-color: black;
+	color: white;
+}
+/* Main Content */
+.maincontent{
+	border-top: 1px solid black;
+	border-bottom: 2px solid black;
+	padding: 1% 0 1% 0;
+	width: 60%;
+    margin: 1% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container1 {
+	font-size: 20px;
+	display: flex;
+	justify-content: space-between;
+	margin: 2% 0;
+}
+.container1 .col1{
+	width: 49%;
+}
+.maincontent .mid-image{
+	display: flex;
+	justify-content: center;
+}
+.maincontent .mid-image img{
+	width: 100%;
+}
+.container2 {
+	font-size: 18px;
+	display:  flex;
+	justify-content: space-between;
+	margin: 2% 0;
+}
+.container2 .col2{
+	width: 32%;
+}
