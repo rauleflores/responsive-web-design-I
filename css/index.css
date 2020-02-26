@@ -86,7 +86,7 @@ footer{
 	margin: 1% auto;
 }
 footer .contact{
-	width: 15%;
+	width: 20%;
 }
 footer .copy{
 	text-align: center;
@@ -155,4 +155,139 @@ footer .copy{
 }
 .container2 .col2{
 	width: 32%;
+}
+/* MQ */
+@media (max-width: 800px){
+	body{
+		width: 100%;
+		margin: 2% auto;
+		padding: 0 4%;
+	}
+	header{
+		width: 100%;
+		display: flex;
+		flex-direction: column-reverse;
+    	justify-content: flex-end;
+    	align-items: center;
+    	margin: 4% auto;
+	}
+	header nav{
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		margin-top: 5%;
+	}
+	.subhead{
+		width: 100%;
+		margin: 5% auto;
+		justify-content: center;
+	}
+	.subhead img, .subhead #emptydiv{
+		display: none;
+	}	
+	.maincontent{
+		border-top: 2px solid black;
+		border-bottom: 2px solid black;
+		width: 100%;
+		padding: 4% 0;
+		margin: 10% auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.maincontent .mid-image img{
+		width: 100%;
+		margin: 5% auto;
+	}
+	footer{
+		width: 100%;
+		margin: 0;
+	}
+	footer .contact{
+		width: 30%;
+	}
+}
+@media (max-width: 500px){
+	body{
+		width: 100%;
+		margin: 5% 0;
+	}
+	header{
+		width: 100%;
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: center;
+		align-items: center;
+		margin: 0;
+	}
+	header nav{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-top: 5%;
+	}
+	header nav a{
+		width: 100%;		
+		border-bottom: 1px solid lightslategrey;
+		text-align: center;
+		padding: 4% 0;
+		font-size: x-large;
+	}
+	#first-a{
+		border-top: 1px solid lightslategrey;
+	}
+	.subhead{
+		width: 100%;
+		margin: 5% auto;
+		justify-content: center;
+	}
+	.subhead img, .subhead #emptydiv{
+		display: none;
+	}	
+	.maincontent{
+		border-top: 2px solid black;
+		border-bottom: 2px solid black;
+		width: 100%;
+		padding: 10% 0;
+		margin: 10% auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.container1 {
+		font-size: 20px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	.container1 .col1{
+		width: 100%;
+		margin: 10% 0;
+
+	}
+	.maincontent .mid-image img{
+		width: 100%;
+		margin: 5% auto;
+	}
+	.container2 {
+		font-size: 18px;
+		display:  flex;
+		flex-direction: column;
+		justify-content: space-between;
+		margin: 2% 0;
+	}
+	.container2 .col2{
+		width: 100%;
+		margin: 10% auto;
+	}
+	footer{
+		width: 100%;
+		margin-bottom: 5%;
+	}
+	footer .contact{
+		width: 50%;
+	}
+}
 }
