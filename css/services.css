@@ -209,7 +209,7 @@ footer{
         margin-top: 5%;
     }
     .maincontent{
-        border-top: 1px solid black;
+        border-top: 2px solid black;
         border-bottom: 2px solid black;
         display: flex;
         flex-direction: column;
@@ -271,12 +271,146 @@ footer{
     .sc-div{
         width: 100%;
     }
+    .sc-div h3, .sc-div p{
+        text-align: center;
+    }
     .sc-div ul{
         list-style-type: square;
+        padding: 0 40%;
     }
     .subcontent img{
-        width: 80%;
-        margin: auto;
+      display: none;
+    }
+}
+@media (max-width: 500px){
+	body{
+		width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+	header{
+		width: 100%;
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: center;
+		align-items: center;
+		margin: 5% 0 0 0;
+	}
+	header nav{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+        margin-top: 5%;
+        
+	}
+	header nav a{
+		width: 100%;		
+		border-bottom: 1px solid lightslategrey;
+		text-align: center;
+		padding: 4% 0;
+        font-size: x-large;
+	}
+	#first-a{
+		border-top: 1px solid lightslategrey;
+	}
+    .subhead{
+        margin: 5% 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;    
+    }
+    .subhead img{
+        display: none;
+      }
+    .subhead div{
+        width: 100%;
+    }
+    .subhead h1{
+        font-size: 24px;
+        margin-top: 5%;
+    }
+    .subhead p{
+        margin-bottom: 5%;
+    }
+    .maincontent{
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+        display: flex;
+        flex-direction: column;
+        margin: 10% 0; 
+        width: 100%;
+        padding: 10% 0;
+    }
+    .maincontent p{
+        font-size: 14px;
+    }
+    .maincontent .row1{
+        display: flex;
+        flex-direction: column;        
+        justify-content: center;
         align-items: center;
+        margin: 0;
+    }
+    .maincontent .row2{
+        display: flex;        
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    .maincontent .row3{
+        display: flex;        
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    .griditem{
+        width: 100%;
+        height: auto;
+        border: 1px solid black;
+        display: flex;
+        margin: 10% 0;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 2%;
+        background-color: lightgray;
+        text-align: center;
+    }
+    .griditem p{
+        padding: 2%;
+    }
+    .griditem button{
+        width: 150px;
+        height: 35px;
+        background-color: white;
+        border-radius: 5px;
+        border: 1px solid black;
+        justify-content: center;
+        margin-top: 5%;
+    }
+    .subcontent{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 5%;
+        margin-left: auto;
+    }
+    .sc-div{
+        width: 100%;
+    }
+    .sc-div h3, .sc-div p{
+        text-align: center;
+    }
+    .sc-div ul{
+        text-align: justify;
+    }
+    .sc-div ul{
+        list-style-type: square;
+        padding: 0 35%;
     }
 }
