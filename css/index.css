@@ -211,6 +211,7 @@ footer .copy{
 	body{
 		width: 100%;
 		margin: 5% 0;
+		padding: 0;
 	}
 	header{
 		width: 100%;
@@ -218,7 +219,7 @@ footer .copy{
 		flex-direction: column-reverse;
 		justify-content: center;
 		align-items: center;
-		margin: 0;
+		margin: 5% 0 0 0;
 	}
 	header nav{
 		width: 100%;
@@ -238,9 +239,14 @@ footer .copy{
 	#first-a{
 		border-top: 1px solid lightslategrey;
 	}
+	header nav a:hover{
+        background-color: black;
+        color: white;
+    }
 	.subhead{
-		width: 100%;
+		width: 92%;
 		margin: 5% auto;
+		padding: 5%;
 		justify-content: center;
 	}
 	.subhead img, .subhead #emptydiv{
@@ -249,7 +255,7 @@ footer .copy{
 	.maincontent{
 		border-top: 2px solid black;
 		border-bottom: 2px solid black;
-		width: 100%;
+		width: 92%;
 		padding: 10% 0;
 		margin: 10% auto;
 		display: flex;
@@ -283,8 +289,8 @@ footer .copy{
 		margin: 10% auto;
 	}
 	footer{
-		width: 100%;
-		margin-bottom: 5%;
+		width: 92%;
+		margin: 5% auto;
 	}
 	footer .contact{
 		width: 50%;
